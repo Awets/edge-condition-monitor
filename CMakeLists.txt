@@ -8,5 +8,6 @@ include_directories(include)
 
 # Add source files
 add_executable(firmware
+    src/main.c
     src/i2c_driver.c
 )
