@@ -1,4 +1,5 @@
 #include "i2c_driver.h"
+#include <stddef.h>  // Required for NULL
 
 /**
  * @brief Initialize the I2C1 peripheral with a given clock speed.
